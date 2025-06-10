@@ -1,6 +1,13 @@
-### Hydra-Synth
+---
+draft: false
+title: Embed Hydra on your webpage
+---
 
-In addition to using hydra within the hydra web editor, it is also possible to use the hydra video-synth engine as a library within your own javascript projects. 
+# Embed Hydra on your webpage
+---
+By Olivia Jack
+
+In addition to using hydra within the hydra web editor, it is also possible to use the hydra video-synth engine as a library within your own javascript projects.
 
 [hydra-synth](https://github.com/hydra-synth/hydra-synth) is a javascript library containing the main logic of hydra packaged as a javascript module.
 
@@ -40,8 +47,6 @@ const Hydra = require('hydra-synth')
 
 
 The rest of this README is about configuring hydra-synth. For broader hydra documentation and usage, see [learning hydra](../../../learning)
-
-
 
 #### API:
 ```javascript
@@ -125,12 +130,12 @@ const { src, osc, gradient, shape, voronoi, noise, s0, s1, s2, s3, o0, o1, o2, o
 shape(4).diff(osc(2, 0.1, 1.2)).out()
 ```
 
-[hydra-ts](https://github.com/folz/hydra-ts) is a fork of hydra-synth in Typescript maintained by @folz. 
+[hydra-ts](https://github.com/folz/hydra-ts) is a fork of hydra-synth in Typescript maintained by @folz.
 
 ### Known issues / troubleshooting
 
 #### Vite
-When using hydra with Vite, you might see the error 
+When using hydra with Vite, you might see the error
 
 #### Autoplay on iOS
 

@@ -1,37 +1,34 @@
 ---
 bookCollapseSection: true
-weight: 7
-title: "Guides"
+weight: 8
+title: "guides"
 draft: false
 # bookFlatSection: true
 ---
 
-# More Resources
+# guides
+Deeper dives into hydra topics written by members of the hydra community.
 
 ## Guides
-Deeper dives into hydra topics written by members of the hydra community. 
 
-* [Javascript for hydra users](guides/javascript.md) by geikha
-* [Generatively spawn patches](guides/automatic-patches.md) by geikha
-* [Precise control of frames and timing](guides/frames-and-timing.md) by geikha
-* [Hydra Book: Textures](guides/textures.md) by Naoto Hieda 
+* [Javascript for Hydra Users](javascript) by Geikha
+* [Iteration & generative patches](automatic-patches) by Geikha
+* [Updating frames & precise timing](frames-and-timing) by Geikha
+* ["Textures" from the Hydra Book](textures) by Naoto Hieda
+* [Audio-reactivity explained](audio) by Geikha
+* [Using clicks & keyboard presses in Hydra](event-listeners) by Geikha
 
-## How to
-* [Record hydra output](how-to/record-hydra-output)
-* [Use hydra without showing the code](how-to/use-hydra-without-showing-code)
-  
-## Developing and Contributing
-* [overview](contributing)
-* [hydra-synth](contributing/synth)
-* [hydra-editor](contributing/editor)
-* [hydra-server](contributing/server)
+## How to...
+* [Embed Hydra on your webpage](how-to/hydra-in-a-webpage)
+* [Record Hydra's output](how-to/record-hydra-output)
+* [Use Hydra without showing the code](how-to/use-hydra-without-showing-code)
 
 <!-- #### Foreword
 * why is it called hydra?
 * live coding community and open-source sofware
 #### Hydra techniques
-* Color 
-* Modulation 
+* Color
+* Modulation
 * Masking and layers
 * Feedback
 
